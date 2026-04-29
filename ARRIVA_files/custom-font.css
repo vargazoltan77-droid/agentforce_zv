@@ -1,0 +1,31 @@
+
+@font-face {
+     font-family: 'Mark';
+     src: local('Mark'),
+         url('https://arriva.sk//webfont/Mark-Regular.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+ 
+/*
+Include an additional @font-face block for each font file in the family.
+Change the font-weight and font-style value to match each font file
+*/
+@font-face {
+font-family: 'Mark';
+     src: local('Mark'),
+         url('https://arriva.sk//webfont/Mark-Bold.woff2') format('woff2');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+ }
+
+@font-face {
+font-family: 'Mark';
+     src: local('Mark'),
+         url('https://arriva.sk//webfont/Mark-Black.woff2') format('woff2');
+     font-weight: black;
+     font-style: normal;
+     font-display: swap;
+ }
